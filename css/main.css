@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+#main-container {
+    background-color: white;
+    border-radius: 1rem;
+    max-width: 800px;
+
+}
+.legend {
+    font-size: 0.7em;
+}
+
+.lead {
+    font-size: 1em;
+}
+.icon {
+    max-width: 100%;
+}
+.info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: aliceblue;
+    width: 100%;
+    border-radius: 1rem;
+    margin: 0.7em;
+    padding: 0.7em;
+    gap: 1em;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.total {
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.fa-bars {
+    color: #a52a2a;
+}
+
+.fa-star {
+    color: rgb(255, 157, 0);
+}
+
+.fa-shield-heart {
+    color:rgb(5, 20, 188);
+}
+
+.fa-meteor {
+    color: red;
+}
+
+#board {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    /* grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr); */
+    
+}
+
+.pixel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167, 225, 167);
+    box-sizing: border-box;
+  
+}
+
+.wall {
+    border: 2px solid #a52a2a;
+}
