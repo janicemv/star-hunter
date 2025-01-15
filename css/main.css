@@ -79,3 +79,9 @@ body {
 .wall {
     border: 2px solid #a52a2a;
 }
+
+h1 {
+    text-align: center;
+    color: rgb(5, 20, 188);
+    font-weight: 800;
+}
